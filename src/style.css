@@ -1,1 +1,36 @@
+.weatherApp {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
 
+.appLayout {
+  display: block;
+  max-width: 800px;
+  margin: 60px auto;
+}
+
+.container {
+  border-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  padding: 40px;
+  color: #878787;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  display: block;
+}
+
+.weatherSearchForm {
+  color: #878787;
+  margin-top: 40px;
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+  display: block;
+}
