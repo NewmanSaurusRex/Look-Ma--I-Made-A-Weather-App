@@ -27,10 +27,83 @@
   display: block;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: block;
+}
+
 .weatherSearchForm {
   color: #878787;
   margin-top: 40px;
   border-bottom: 1px solid #f9f7fe;
   padding-bottom: 30px;
   display: block;
+}
+
+.currentWeather {
+  margin-top: 20px;
+  display: block;
+}
+
+.weatherList {
+  margin: 0;
+  padding: 0;
+  display: block;
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.locationInfo {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.locationConditions {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.temperatureInfo {
+  margin-top: 30px;
+  justify-content: flex-end !important;
+  display: flex !important;
+}
+
+.weatherForecast {
+  text-align: center;
+  margin: 40px 0;
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 50px;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 40px;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
 }
