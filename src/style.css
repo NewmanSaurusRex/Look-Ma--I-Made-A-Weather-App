@@ -1,3 +1,7 @@
+body {
+  background-color: #f3f9fb !important;
+}
+
 .appLayout {
   display: block;
   max-width: 800px;
@@ -17,7 +21,7 @@
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   padding: 40px;
-  color: #878787;
+  color: #455d7a;
 }
 
 .row {
@@ -56,23 +60,63 @@
 }
 
 .weatherApp form {
-  color: #878787;
+  color: #f3f9fb;
   margin-top: 40px;
   border-bottom: 1px solid #f9f7fe;
   padding-bottom: 30px;
   display: block;
+  line-height: 1.5 !important;
 }
 
 .weatherApp .search-Input {
-  background: #f9f7fe;
-  border: none;
-  padding: 15px 20px;
+  background: #474f85 !important;
+  padding: 15px 20px !important;
   display: inline-block;
   border-radius: 6px;
-  color: rgba(39, 33, 66, 0.4);
-  font-size: 16px;
-  height: 50px;
+  border-color: #474f85 !important;
+  color: #474f85 !important;
+  font-size: 16px !important;
+  height: 50px !important;
   line-height: 20px;
+}
+
+.weatherApp .form-control {
+  background: #f3f9fb !important;
+  color: #474f85 !important;
+  border-color: #474f85 !important;
+  font-size: 16px;
+  padding: 15px 20px !important;
+  height: 50px;
+}
+
+.weatherApp .input,
+.text-area,
+::placeholder {
+  color: #474f85 !important;
+}
+
+::placeholder {
+  opacity: 0.5 !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.btn-primary {
+  background-color: #474f85 !important;
+  border-color: #474f85 !important;
+  line-height: 1.5 !important;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 0;
+  border: none;
+  height: 50px;
+}
+
+.btn-primary:hover {
+  color: #f3f9fb !important;
+  background-color: #233142 !important;
 }
 
 .currentWeather {
