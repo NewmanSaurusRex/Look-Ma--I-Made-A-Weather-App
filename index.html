@@ -24,59 +24,113 @@
       <div class="appLayout">
         <div class="weatherApp">
           <h2>Look Ma, I Made a Weather App</h2>
-          <form class="weatherSearchForm">Insert Form Here</form>
+          <form>
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Tell Me the Weather in..."
+                  class="form-control search-input"
+                />
+              </div>
+              <div class="col-3 p-0">
+                <input
+                  type="submit"
+                  class="btn btn-primary w-100"
+                  value="Search"
+                />
+              </div>
+            </div>
+          </form>
 
           <div class="currentWeather">
             <div class="row">
               <div class="col-6">
-                <h1>City</h1> 
-                <ul class="weatherList">
-                  <li class="locationInfo">Date + Time + Current Weather</li>
-                  <li class="LocationConditions">Conditions</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-6">
-                <div class="temperature-info">Degrees</div>
+                <h1>Los Angeles</h1>
+                <ul>
+                  <li>
+                    Wednesday May 25th
+                    <br />
+                    5:41pm
+                    <br />
+                    Partly Cloudy
+                  </li>
+                  <li>
+                    Humidity: 61%
+                    <br />
+                    Wind: 14 km/h
+                  </li>
+                </ul>
               </div>
             </div>
+
+            <div class="col-6">
+              <div class="temperature-container d-flex justify-content-end">
+                <canvas width="52" height="52"></canvas>
+                <div>
+                  <span class="temperature">22</span>
+                  <span class="unit">°C</span>
+                </div>
+              </div>
             </div>
           </div>
 
           <div class="weatherForecast row">
             <div class="col">
-              <div class="forecastPreview"></div>
-              <div class="nextDayInfo">Tmrw</div>
-              <div class="nextDayTemp">Tmrw Hot</div>
+              <div class="forecastPreview">
+                <div class="nextDayInfo">Tmrw</div>
+                <canvas width="38" height="38"></canvas>
+                <div class="nextDayTemp">Tmrw Hot</div>
+              </div>
             </div>
 
-          <div class="col">
-              <div class="forecastPreview"></div>
-              <div class="nextDayInfo">Tmrw</div>
-              <div class="nextDayTemp">Tmrw Hot</div>
+            <div class="col">
+              <div class="forecastPreview">
+                <div class="nextDayInfo">Tmrw</div>
+                <canvas width="38" height="38"></canvas>
+                <div class="nextDayTemp">Tmrw Hot</div>
+              </div>
             </div>
 
-         <div class="col">
-              <div class="forecastPreview"></div>
-              <div class="nextDayInfo">Tmrw</div>
-              <div class="nextDayTemp">Tmrw Hot</div>
+            <div class="col">
+              <div class="forecastPreview">
+                <div class="nextDayInfo">Tmrw</div>
+                <canvas width="38" height="38"></canvas>
+                <div class="nextDayTemp">Tmrw Hot</div>
+              </div>
             </div>
 
-          <div class="col">
-              <div class="forecastPreview"></div>
-              <div class="nextDayInfo">Tmrw</div>
-              <div class="nextDayTemp">Tmrw Hot</div>
+            <div class="col">
+              <div class="forecastPreview">
+                <div class="nextDayInfo">Tmrw</div>
+                <canvas width="38" height="38"></canvas>
+                <div class="nextDayTemp">Tmrw Hot</div>
+              </div>
             </div>
 
-          <div class="col">
-              <div class="forecastPreview"></div>
-              <div class="nextDayInfo">Tmrw</div>
-              <div class="nextDayTemp">Tmrw Hot</div>
+            <div class="col">
+              <div class="forecastPreview">
+                <div class="nextDayInfo">Tmrw</div>
+                <canvas width="38" height="38"></canvas>
+                <div class="nextDayTemp">Tmrw Hot</div>
+              </div>
             </div>
-        </div>
+          </div>
 
-          <footer class="codedBy">"This project was coded by..."</footer>
+          <footer class="codedBy">
+            This project was coded by MNewman and is
+            <a
+              href="https://github.com/NewmanSaurusRex/Look-Ma--I-Made-A-Weather-App"
+              target="_blank"
+              >open-sourced on GitHub</a
+            >
+            and<a
+              href="https://gilded-haupia-af4d40.netlify.app/"
+              target="_blank"
+            >
+              hosted on Netlify
+            </a>
+          </footer>
         </div>
       </div>
     </div>
