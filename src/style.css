@@ -146,11 +146,12 @@ body {
   font-size: 16px;
   line-height: 20px;
   list-style: none;
+  text-transform: capitalize;
 }
 
 .currentWeather li strong {
   color: #fd2eb3;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .currentWeather .temperature-container {
@@ -200,7 +201,7 @@ body {
   line-height: 1.5;
   color: #fd2eb3;
   opacity: 0.8;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .weatherForecast canvas {
