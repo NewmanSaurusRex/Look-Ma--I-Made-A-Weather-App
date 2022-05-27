@@ -175,6 +175,26 @@ li::first-letter {
   position: relative;
 }
 
+.units a {
+  text-decoration: none;
+  color: #474f85;
+}
+
+.units a:hover {
+  text-decoration: none;
+  color: #474f85;
+}
+
+.currentWeather .active {
+  color: #474f85;
+  cursor: default;
+}
+
+.currentWeather .active:hover {
+  text-decoration: none;
+  color: #474f85;
+}
+
 .weatherForecast {
   text-align: center;
   margin: 40px 0 !important;
