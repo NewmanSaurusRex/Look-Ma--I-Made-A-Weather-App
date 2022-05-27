@@ -161,16 +161,16 @@ li::first-letter {
   margin-top: 30px;
 }
 
-.currentWeather .canvas {
+.currentWeather img {
   margin: 10px 0;
 }
 
 .currentWeather .temperature {
-  color: #474f85;
+  color: #474f85 !important;
   font-weight: 400;
   margin-left: 10px;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 80px !important;
   line-height: 1;
 }
 

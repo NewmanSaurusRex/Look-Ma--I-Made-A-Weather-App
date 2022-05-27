@@ -31,7 +31,8 @@
                 <input
                   type="search"
                   placeholder="Tell Me the Weather in..."
-                  class="form-control search-input" autofocus="on"
+                  class="form-control search-input"
+                  autofocus="on"
                 />
               </div>
               <div class="col-3 p-0">
@@ -51,19 +52,22 @@
                 <ul>
                   <li>Last Updated: <span id="date"></span></li>
                   <li id="description"></li>
-                  <li>
-                    Humidity: <span id="humidity"></span>%</li>
-                    <li>
-                    Wind: <span id="wind"></span> km/h
-                  </li>
+                  <li>Humidity: <span id="humidity"></span>%</li>
+                  <li>Wind: <span id="wind"></span> km/h</li>
                 </ul>
               </div>
 
-            <div class="col-6">
-              <div class="temperature-container d-flex justify-content-end">
-                <div>
-                  <span class="temperature" id="temperatureData"></span>
-                  <span class="unit">°C</span>
+              <div class="col-6">
+                <div class="temperature-container d-flex justify-content-end">
+                  <img
+                    src="http://openweathermap.org/img/wn/10d@2x.png"
+                    alt="Clear"
+                    id="icon"
+                  />
+                  <div>
+                    <span id="temperatureData"></span>
+                    <span class="unit">°C | <a href="#">°F</a></span>
+                  </div>
                 </div>
               </div>
             </div>
