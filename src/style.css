@@ -21,7 +21,7 @@ body {
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   padding: 40px;
-  color: #455d7a;
+  color: #474f85;
 }
 
 .row {
@@ -62,7 +62,7 @@ body {
 .weatherApp form {
   color: #f3f9fb;
   margin-top: 40px;
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid #f3f9fb;
   padding-bottom: 30px;
   display: block;
   line-height: 1.5 !important;
@@ -120,16 +120,15 @@ body {
 }
 
 .currentWeather {
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 .currentWeather h1 {
   margin: 20px 0 10px;
-  line-height: 29px;
   font-weight: 700;
   font-size: 38px;
   line-height: 48px;
-  color: #272142;
+  color: #474f85;
 }
 
 .currentWeather ul {
@@ -142,15 +141,16 @@ body {
   list-style-type: none;
   font-weight: 500;
   margin-bottom: 5px;
-  color: rgba(39, 33, 66, 0.4);
+  color: #455d7a;
+  opacity: 0.7;
   font-size: 16px;
   line-height: 20px;
   list-style: none;
 }
 
 .currentWeather li strong {
-  color: #f65282;
-  font-weight: 400;
+  color: #fd2eb3;
+  font-weight: 700;
 }
 
 .currentWeather .temperature-container {
@@ -162,7 +162,7 @@ body {
 }
 
 .currentWeather .temperature {
-  color: #212121;
+  color: #474f85;
   font-weight: 400;
   margin-left: 10px;
   font-weight: 700;
@@ -171,9 +171,8 @@ body {
 }
 
 .currentWeather .unit {
-  color: #212121;
+  color: #474f85;
   font-size: 28px;
-  line-height: 36px;
   font-weight: 400;
   position: relative;
   line-height: 1;
@@ -183,7 +182,7 @@ body {
 .weatherForecast {
   text-align: center;
   margin: 40px 0 !important;
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid #f3f9fb;
   padding-bottom: 50px;
 }
 
@@ -191,14 +190,16 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: #455d7a;
+  opacity: 0.7;
 }
 
 .weatherForecast .nextDayTemp {
   font-style: normal;
   font-size: 18px;
   line-height: 1.5;
-  color: #f65282;
+  color: #fd2eb3;
+  opacity: 0.8;
   font-weight: 700;
 }
 
@@ -212,11 +213,15 @@ footer {
   margin-top: 40px;
   line-height: 18px;
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: #455d7a;
 }
 
 .weatherApp footer a {
-  color: #885df1;
+  color: #fd2eb3;
   text-decoration: none;
   background-color: transparent;
+}
+
+.weatherApp footer .span {
+  color: #fd2eb3 !important;
 }
