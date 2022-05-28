@@ -21,6 +21,31 @@ function formatDate(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  let days = ["Sat", "Sun", "Mon", "Tue", "Wed"];
+
+  let forecastHTML = `<div class="row">`;
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      ` <div class="col-2">
+        <div class="next-day-info">${day}</div>
+        <img src="#" alt="#" width="38" 
+        />
+      
+      <div class="next-day-temp">
+        <span class="weather-forecast-temp-max">18°</span>
+        <span class="weather-forecast-temp-min">12°</span>
+      </div>
+    </div>
+  `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temp-data");
   let cityElement = document.querySelector("#city");
@@ -86,3 +111,4 @@ let celsiusLink = document.querySelector("#metric-temp");
 celsiusLink.addEventListener("click", convertToCelsius);
 
 search("Los Angeles");
+displayForecast();
