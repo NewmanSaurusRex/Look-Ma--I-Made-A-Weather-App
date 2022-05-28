@@ -52,10 +52,16 @@
               <div class="col-6">
                 <h1 id="city"></h1>
                 <ul>
-                  <li>Last Updated: <span id="date"></span></li>
+                  <li>
+                    Last Updated: <strong><span id="date"></span></strong>
+                  </li>
                   <li id="description"></li>
-                  <li>Humidity: <span id="humidity"></span>%</li>
-                  <li>Wind: <span id="wind"></span> km/h</li>
+                  <li>
+                    Humidity: <strong><span id="humidity"></span>%</strong>
+                  </li>
+                  <li>
+                    Wind: <strong><span id="wind"></span> km/h</strong>
+                  </li>
                 </ul>
               </div>
 
@@ -77,7 +83,17 @@
             </div>
           </div>
 
-          <div class="weather-forecast" id="forecast"></div>
+          <div class="weather-forecast" id="forecast">
+            <div class="col">
+              <div class="next-day-info"></div>
+              <img src="" alt="#" width="38" />
+
+              <div class="next-day-temp">
+                <span class="weather-forecast-temp-max">°</span>
+                <span class="weather-forecast-temp-min">°</span>
+              </div>
+            </div>
+          </div>
 
           <footer class="codedBy">
             This project was coded by <span>MNewman 🫠</span> and is

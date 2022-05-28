@@ -25,8 +25,6 @@ body {
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -39,12 +37,6 @@ body {
 .col-3 {
   flex: 0 0 25%;
   max-width: 25%;
-}
-
-.col {
-  flex-basis: 0;
-  flex-grow: 1;
-  max-width: 100%;
 }
 
 .weatherApp h2 {
@@ -113,7 +105,7 @@ body {
 }
 
 .currentWeather {
-  margin-top: 12px;
+  margin-top: 20px;
 }
 
 .currentWeather h1 {
@@ -195,14 +187,21 @@ li::first-letter {
   color: #474f85;
 }
 
-.weatherForecast {
+.weather-forecast {
   text-align: center;
   margin: 40px 0 !important;
   border-bottom: 1px solid #f3f9fb;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
-.weatherForecast .next-day-info {
+.weather-forecast .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.weather-forecast .next-day-info {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -210,18 +209,22 @@ li::first-letter {
   opacity: 0.7;
 }
 
-.weatherForecast .next-day-temp {
+.weather-forecast .next-day-temp {
   font-style: normal;
   font-size: 18px;
   line-height: 1.5;
   color: #fd2eb3;
   opacity: 0.8;
-  font-weight: 500;
+  font-weight: 700;
+}
+
+.weather-forecast .weather-forecast-temp-min {
+  opacity: 0.5;
 }
 
 footer {
   font-size: 14px;
-  margin-top: 40px;
+  margin-top: 30px;
   line-height: 18px;
   text-align: center;
   color: #455d7a;
