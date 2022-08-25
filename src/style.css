@@ -1,3 +1,28 @@
+/*Light Mode Palette*/
+:root[color-mode="light"] {
+  --surfaceApp: #eff0f3;
+  --surfaceSearchBar: #fffffe;
+  --surfacePage: #94a1b2;
+  --mainElement: #0d0d0d;
+  --secondaryElement: #2a2a2a;
+  --tertiaryElement: #121629;
+  --primary: #ff8e3c;
+  --secondary: #d9376e;
+  --tertiary: #f25f4c;
+}
+
+:root[color-mode="dark"] {
+  --surfaceApp: #0f0e17;
+  --surfaceSearchBar: #a7a9be;
+  --surfacePage: #121629;
+  --mainElement: #fffffe;
+  --secondaryElement: #b8c1ec;
+  --tertiaryElement: #fffffe;
+  --primary: #ff8e3c;
+  --secondary: #d9376e;
+  --tertiary: #f25f4c;
+}
+
 body {
   background-color: #f3f9fb !important;
 }
