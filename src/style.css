@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: #f3f9fb !important;
+  background: var(--surfaceApp) !important;
 }
 
 .appLayout {
